@@ -1,4 +1,25 @@
 {
+  "name": "simple-plugin-template",
+  "version": "1.0.0",
+  "description": "This is a typescript template for developing various plug-ins.Use esbuild.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist && node -r esbuild-register ./tools/build.ts & tsc --emitDeclarationOnly",
+    "eslint": "eslint '**/*.ts' --ignore-path .gitignore",
+    "prettier": "prettier . --write",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/activeguild/simple-plugin-template.git"
+  },
+  "author": "j1ngzoue",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/activeguild/simple-plugin-template/issues"
+  },
+  "homepage": "https://github.com/activeguild/simple-plugin-template#readme",
   "devDependencies": {
     "@types/node": "^17.0.8",
     "@typescript-eslint/eslint-plugin": "^5.9.1",
@@ -12,5 +33,11 @@
     "prettier": "^2.5.1",
     "rimraf": "^3.0.2",
     "typescript": "^4.5.4"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "eslint --fix",
+      "prettier --write"
+    ]
   }
 }
