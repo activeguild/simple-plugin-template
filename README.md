@@ -1,1 +1,1 @@
-# simply-plugin-template
+# simple-plugin-template
