@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/activeguild/simple-plugin-template.git"
+    "url": "git+https://github.com/activeguild/vite-plugin-template.git"
   },
   "author": "j1ngzoue",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/activeguild/simple-plugin-template/issues"
+    "url": "https://github.com/activeguild/vite-plugin-template/issues"
   },
-  "homepage": "https://github.com/activeguild/simple-plugin-template#readme",
+  "homepage": "https://github.com/activeguild/vite-plugin-template#readme",
   "devDependencies": {
     "@types/node": "^17.0.36",
     "@typescript-eslint/eslint-plugin": "^5.27.0",
