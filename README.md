@@ -1,1 +1,1 @@
-# simple-plugin-template
+# vite-plugin-template
