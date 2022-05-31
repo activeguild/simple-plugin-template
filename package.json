@@ -1,5 +1,5 @@
 {
-  "name": "simple-plugin-template",
+  "name": "vite-plugin-template",
   "version": "1.0.0",
   "description": "A typescript template for developing various plugins. Use esbuild.",
   "main": "./dist/index.js",
